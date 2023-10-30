@@ -11,7 +11,7 @@ public class HouseKeeping implements HotelService {
         return "The Room " + roomNumber + " is now tidied up, Thank You!";
     }
 
-    public String provideService() {
+    public String giveService() {
         return cleanRoom(roomNumber);
     }
 }

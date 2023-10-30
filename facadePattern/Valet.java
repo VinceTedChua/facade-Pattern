@@ -12,7 +12,7 @@ public class Valet implements HotelService {
     }
 
 
-    public String provideService() {
+    public String giveService() {
         return pickUpVehicle(plateNumber);
     }
 }

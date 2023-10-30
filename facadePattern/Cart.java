@@ -11,7 +11,7 @@ public class Cart implements HotelService {
         return  numberOfCarts + " cart(s) has been requested please wait patiently, Thanks! ";
     }
 
-    public String provideService() {
+    public String giveService() {
         return requestCart(numberOfCarts);
     }
 }
