@@ -34,7 +34,8 @@ HotelApp: The client class that uses the FrontDesk facade to access and utilize 
 4. Potentially Improved Performance: The Facade Design Pattern can potentially improve performance by caching results or optimizing the order in which operations are performed.
 
 
-
 ## Sample Execution of The Hotel Management System
 
 In this project, we've utilized the Face Pattern to create a simplified Hotel Management System. Allowing you to interact with services of the hotel via front Desk.
+
+<img width="1792" alt="Facade_Output" src="https://github.com/VinceTedChua/facade-Pattern/assets/142372312/35182b3d-e124-42b9-977d-da54550eb52a">
