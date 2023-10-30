@@ -27,19 +27,19 @@ public class HotelApp {
                     sc.nextLine();
                     String plateNumber = sc.nextLine();
                     Valet valetService = new Valet((plateNumber));
-                    System.out.println(frontDesk.requestService((valetService)));
+                    System.out.println(frontDesk.callService((valetService)));
                     break;
                 case 2:
                     System.out.println("Enter Room(RM) Number: ");
                     int roomNumber = sc.nextInt();
                     HouseKeeping houseKeepingService = new HouseKeeping((roomNumber));
-                    System.out.println(frontDesk.requestService((houseKeepingService)));
+                    System.out.println(frontDesk.callService((houseKeepingService)));
                     break;
                 case 3:
                     System.out.println("Enter Number(#) of Carts: ");
                     int numberOfCarts = sc.nextInt();
                     Cart cartService = new Cart(numberOfCarts);
-                    System.out.println(frontDesk.requestService(cartService));
+                    System.out.println(frontDesk.callService(cartService));
                     break;
                 case 4:
                     toExit = true;

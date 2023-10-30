@@ -1,7 +1,7 @@
 package facadePattern;
 
 public class FrontDesk {
-    public String requestService(HotelService hotelService){
+    public String callService(HotelService hotelService){
         return hotelService.giveService();
     }
 }
