@@ -22,8 +22,7 @@ FrontDesk: The facade class that coordinates interactions between the client (Ho
 HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
 
 ## UML IMPLEMENTATION DIAGRAM
-[CSL311-18_WK10-11_UML_CHUA_SE.pdf](https://github.com/VinceTedChua/facade-Pattern/files/13209283/CSL311-18_WK10-11_UML_CHUA_SE.pdf)
-
+<img width="1761" alt="CSL311-18_WK10-11_UML_CHUA_SE" src="https://github.com/VinceTedChua/facade-Pattern/assets/142372312/a7e6cf4f-0f4a-4989-98a0-384184a0804a">
 
 ## Why Use Facade Design Pattern?
 1. Reduced Complexity: The Facade Design Pattern hides the complexities of the subsystem from the client, making it easier for the client to use.
